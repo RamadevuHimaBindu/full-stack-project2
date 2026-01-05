@@ -1,0 +1,116 @@
+/* Basic Reset */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9ff;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #003366;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Navigation Bar */
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  background-color: #002244;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navbar ul li {
+  margin: 10px 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Section Headings */
+section h2 {
+  border-bottom: 2px solid #003366;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #003366;
+}
+
+/* Topic List */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+/* Explanation Boxes */
+#explanations article {
+  background-color: #eef6ff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-left: 5px solid #3399ff;
+}
+
+/* Exercises */
+.exercise {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.exercise ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.exercise ul li {
+  margin: 8px 0;
+}
+
+/* Table Tracker */
+#tracking table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+#tracking th, #tracking td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+#tracking th {
+  background-color: #cce0ff;
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}

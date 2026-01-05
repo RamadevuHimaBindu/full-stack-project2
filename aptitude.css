@@ -1,0 +1,129 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #1d4ed8;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+/* Main content styling */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Topics section */
+#topics ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+#topics ul li {
+    background-color: #e0e7ff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+#topics ul li a {
+    text-decoration: none;
+    color: #1d4ed8;
+    font-weight: bold;
+}
+
+#topics ul li:hover {
+    transform: translateY(-5px);
+    background-color: #1d4ed8;
+}
+
+#topics ul li:hover a {
+    color: white;
+}
+
+/* Practice questions */
+.question {
+    background-color: white;
+    padding: 20px;
+    border-left: 6px solid #1d4ed8;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.question p {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.question input {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 120px;
+    margin-right: 10px;
+}
+
+.question button {
+    padding: 8px 15px;
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.question button:hover {
+    background-color: #3b82f6;
+}
+
+/* Daily challenge */
+#daily-challenge {
+    background-color: #e0e7ff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Footer */
+footer {
+    background-color: #1d4ed8;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

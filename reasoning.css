@@ -1,0 +1,113 @@
+/* Base Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffaf0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #228b22;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #1a6624;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar ul li {
+    margin: 10px 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Layout */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Section Headers */
+section h2 {
+    border-bottom: 2px solid #228b22;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Topics List */
+#topics ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Explanations */
+#explanations article {
+    background-color: #eafbe8;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 5px solid #4caf50;
+}
+
+/* Problems */
+.problem {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.problem ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.problem ul li {
+    margin: 8px 0;
+}
+
+/* Table Tracker */
+#tracking table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+#tracking th, #tracking td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+#tracking th {
+    background-color: #d4edda;
+}
+
+/* Footer */
+footer {
+    background-color: #228b22;
+    color: white;
+    text-align: center
+
+}

@@ -1,0 +1,114 @@
+/* General Layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff0f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #8b008b;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Navigation Bar */
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  background-color: #6a006a;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navbar ul li {
+  margin: 10px 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Container */
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Section Headings */
+section h2 {
+  border-bottom: 2px solid #8b008b;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Topics List */
+#topics ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Explanations */
+#explanations article {
+  background-color: #ffe6f0;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-left: 5px solid #d63384;
+}
+
+/* Practice Problems */
+.problem {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.problem ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.problem ul li {
+  margin: 8px 0;
+}
+
+/* Daily Tracker Table */
+#tracking table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+#tracking th, #tracking td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+#tracking th {
+  background-color: #ffd6e8;
+}
+
+/* Footer */
+footer {
+  background-color: #8b008b;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
